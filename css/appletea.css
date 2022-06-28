@@ -1,0 +1,58 @@
+*{box-sizing: border-box;
+    color: gray;}
+  img{max-width: 100%;}
+/*section1*/
+.header{background: url('../appletea/home.jpg');
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+}  
+.learn{color: white;
+    margin: 10px;
+    width:200px;
+    border-radius: 0px;
+    padding: 10px;}
+.bars{width: 90%;
+      margin: auto;}
+.myProgress {width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    text-align: center;
+}   
+  #myBar {
+    width: 60%;
+    height:25px;
+    background-color: goldenrod;
+    color: white;
+  }
+  #myBar1 {
+    width: 82%;
+    height: 25px;
+    color: white;
+    background-color: goldenrod;
+  }
+  #myBar2 {
+    width: 86%;
+    height: 25px;
+    color: white;
+    background-color: goldenrod;  
+  }  
+/*section6*/
+.section6{background: url('../appletea/footer.jpg');
+    background-position:center;
+    background-repeat: no-repeat;}
+
+
+@media only screen and (min-width:768px){
+  .clean{padding-top: 150px !important;}
+}
+@media only screen and (min-width:992px){
+  .clean{padding-top: 200px !important;}
+  .header{height: 100vh;}
+  .section1{height: 100vh;}
+  .subheading{font-size: medium !important;
+              font-weight: bold;}
+  .menu{padding-top: 20px;
+        padding-left: 600px;}            
+}
+    
