@@ -53,6 +53,8 @@
   .subheading{font-size: medium !important;
               font-weight: bold;}
   .menu{padding-top: 20px;
-        padding-left: 600px;}            
+        padding-left: 600px;} 
+  .card-title{padding-top: 40px;
+        margin-top: 40px;}  
 }
     
